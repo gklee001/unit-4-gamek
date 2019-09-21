@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class=" container">
         <div class="row">
             <div class=col-md-4>
                 <h1>CrystalsCollector!</h1>
@@ -28,33 +32,43 @@
             </div>
         </div>
         <div class="row">
-            <div id="computerGuess">
-                <div class=col-md-4>
+            <div id="computerGuess" class='col-md-4'>
+            </div>
+            <div class='col-md-1'>
+                <!--need to create 2 different div ids to display win and losses-->
+                <div id="wins">
+                    win
                 </div>
-                <div class=col-md-1>
-                    <!--need to create 2 different div ids to display win and losses-->
-                    <div id="wins">
-                    </div>
-                    <div id="losses">
-                    </div>
+                <div id="losses">
+                    lose
                 </div>
             </div>
         </div>
         <div class="row">
             <div id="ruby">
+                ruby
             </div>
             <div id="diamond">
+                diamond
             </div>
             <div id="Canary">
+                canary
             </div>
             <div id="emerald">
+                emerald
             </div>
         </div>
-        <div class="row"></div>
-        <div id="your-Score">
-        </div>
         <div class="row">
-            <div id="humanGuess">
+            <div class=col-md-4>
+                <div id="your-Score">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=col-md-4>
+                <div id="humanGuess">
+                </div>
             </div>
         </div>
     </div>
