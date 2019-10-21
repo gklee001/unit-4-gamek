@@ -1,0 +1,11 @@
+img {
+    width: 150px;
+    padding-bottom: 5%;
+}
+body{
+    background-color: rgb(242, 245, 248);
+}
+.content-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
